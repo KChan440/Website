@@ -1,0 +1,17 @@
+body{
+	margin: 0px;
+}
+
+.background{
+	width:100%;
+	position:relative;
+}
+
+.resume{
+	position: absolute;
+	width:25%;
+	height: 45%;
+	top:400px;
+	right:100px;
+	transform: rotate(20deg);
+}
