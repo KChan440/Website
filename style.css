@@ -10,7 +10,7 @@ body{
 .resume{
 	position: absolute;
 	width:25%;
-	height: 45%;
+	height: 50%;
 	top:400px;
 	right:100px;
 	transform: rotate(20deg);
