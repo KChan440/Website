@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+        <head>
+            <title>My survey</title>
+            <link rel="stylesheet" type="text/css" href="survey.css">
+            <link rel="stylesheet" type="text/css" href="nav.css">
+        </head>
+
+        <body>
+            <a class="nav black" href="index.html">home</a>
+            <a class="nav black" href="projects.html">projects</a>
+            <a class="nav black" href="https://github.com/KChan440">github</a>
+            <a class="nav black" href="Resume.pdf">resume</a>
+            <div id="header">
+                <img class="logo" src="./images/icon.jpg" alt="logo">
+                <div class="header-body">
+                    <p>Kumaran's Important Questions</p>
+                </div>
+            </div>
+            <div id="questions">
+                <form class="questions-form">
+                    <div class="form-group">
+                        <label for="firstname">First Name*</label>
+                        <input id="firstname" name="firstname" class="text-box" type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="passionate">What are you passionate about?</label>
+                        <input id="passionate" name="passionate" class="text-box" type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tveating">Do you like watching TV while eating?</label>
+                        <input name="tveating" id="tveating" class="text-box" type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthday">What's your birthday?* (ex. 11/13/1996)</label>
+                        <input name="birthday" id="birthday" class="text-box" type="text" placeholder="mm/dd/yyyy" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="programming">What's your favorite programming language?</label>
+                        <input name="programming" id="programming" class="text-box" type="text" placeholder="Python" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="anime">Do you like anime?*:</label>
+                        <select name="anime" id="anime" required >
+                            <option label="--select--"></option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="interesting">Tell me something interesting about you!*</label>
+                        <textarea id="interesting" name="interesting" class="text-area" placeholder="I'm Kumaran and I play competitive super smash bros melee"></textarea>
+                    </div>
+                    <input class="submit" type="submit" value="Submit">
+                </form>
+            </div>
+        </body>
+    </html>
+

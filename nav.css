@@ -1,0 +1,35 @@
+.nav{
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.3em;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+.nav:hover {
+  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -ms-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  transition: all 600ms ease;
+  background-color: rgba(255, 99, 71, .5);
+}
+
+.black{
+  color: black;
+}
+
+.white{
+  color: white;
+}
